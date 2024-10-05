@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>Calculadora</h1>
+        <form method="post" action="/operadores">
+            <label for="opcion">Selecciona una operacion:</label><br>
+            <select name="opcion" id="opcion">
+                <option value="1">suma</option>
+                <option value="2">resta</option>
+                <option value="3">multiplicacion</option>
+                <option value="4">division</option>
+            </select><br>
+            <label for="">digite los numeros: </label><br>
+            <input type="number" name="y1" id="y1">
+            <input type="number" name="y2" id="y2">
+            <input type="submit" value="Calcular">
+        </form>
+            <h1>El resultado es: {{res}} </h1>
+</body>
+</html>

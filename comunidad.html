@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+      .container {
+          background-color: #c01e7c;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+          text-align: center;
+          color: #333;
+      }
+      .calendar {
+          display: grid;
+          grid-template-columns: repeat(7, 1fr);
+          gap: 10px;
+      }
+      .day {
+          background-color: #e3f2fd;
+          padding: 10px;
+          border-radius: 5px;
+          text-align: center;
+          position: relative;
+      }
+      .day-header {
+          background-color: #1976d2;
+          color: #fff;
+          font-weight: bold;
+      }
+      .event {
+          background-color: #bbdefb;
+          padding: 5px;
+          border-radius: 3px;
+          margin-top: 5px;
+      }
+      .day strong {
+          display: block;
+          font-size: 1.2em;
+          margin-bottom: 5px;
+      }
+  </style>
+
+</head>
+<body style="background-color: yellow;">
+    <nav>
+        <img src="img/Bandera_Kinder.png" alt="" style="height: 60px; width: 80px;">
+       <img src="img/Carita_Feliz.png" alt="" style="height: 60px; width: 80px;">
+       <ul class="menu-horizontal">
+           <li><a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
+           <li>
+               <a href="nosotros.html"><i class="fa-solid fa-person-dress"></i><i class="fa-solid fa-person"></i> Nosotros</a>
+               <ul class="menu-vertical">
+                   <li><a href="#perfilstuden">Perfil del Estudiante</a></li>
+                   <li><a href="#culins">Cultura Institucional</a></li>
+                   <li><a href="#idenins">Identificación Institucional</a></li>
+               </ul>
+           </li>
+           <li>
+               <a href="Sesion3.html"><i class="fa-solid fa-chart-simple"></i>Servicio</a>
+               <ul class="menu-vertical">
+                   <li><a href="#ServiAdmin">Servicios Administrativos</a></li>
+                   <li><a href="#RecurHuma">Recursos Humanos</a></li>
+                   <li><a href="#PolítSala">Política Salarial</a></li>
+                   <li><a href="#Inventsalon">Inventarios de Salones y Aulas</a></li>
+               </ul>
+           </li>
+           <li><a href="comunidad.html"><i class="fa-solid fa-users"></i> Comunidad</a></li>
+           <li><a href="Sesion4.html"><i class="fa-regular fa-user"></i> Inicia sesion</a></li>
+       </ul>
+    </nav>
+
+    <div class="container" style="display: grid; justify-content: center; text-align: justify; background-color: yellow;">
+        <h2 class="ppp22" >Componente comunitario</h2>
+        <p class="pppp2">La Ley General de Educación, señala que cada comunidad educativa 
+          debe generar y cultivar una dinámica propia en torno al Proyecto Educativo 
+          Institucional (PEI) y, dentro de él, una propuesta curricular en permanente 
+          construcción que dé cuenta de su concepción de ser humano, de su 
+          política educativa, de su posición pedagógica y de la forma como trata de 
+          apropiarse de la cultura, la ciencia y la tecnología, para participar 
+          activamente en la construcción de mejores condiciones de vida y pleno 
+          desarrollo de la comunidad.</p>
+      </div>
+      <div class="container px-4 text-center" style="background-color:  rgb(184, 65, 130); border-radius: 20px;  margin-top: 100px;">
+        <div class="row gx-5" style="align-items: center;">
+          <div class="col">
+           <div class="p-3">
+
+            <div class="p4"><h1>Escuela de padres
+            </h1>
+            <p>   Permite capacitar y enseñar a padres, madres y/o cuidadores en la 
+              importancia que tienen como primer agente de formación. A través de este 
+              proyecto se pretende dar las herramientas necesarias (psicológicas, 
+              pedagógicas y demás) para fomentar las buenas prácticas en los hogares, 
+              las cuales permitan un mejor desarrollo afectivo y en valores de nuestro niños 
+              y niñas. <br><br>
+
+              Con la escuela de padres, se pretende entonces: 
+              <ul>
+                <li>Propiciar espacios de socialización, reflexión y participación que están 
+                  relacionados con situaciones cotidianas que suceden diariamente al 
+                  interior del hogar.</li>
+                <li>Promover la participación activa del grupo familiar en la enseñanza y 
+                  aprendizaje de sus educandos. Es decir, concientizar sobre no dejar la 
+                  responsabilidad de sus niños y niñas a una sola persona.</li>
+                <li>Capacitar sobre las características evolutivas, intereses y necesidades 
+                  que necesitan los educandos en su etapa de infancia y adolescencia.</li>
+                <li>Brindar herramientas que favorezcan la comunicación, participación 
+                  y convivencia del grupo familiar.</li>
+                <li>Brindar herramientas que permitan la detección y prevención de 
+                  situaciones que afecten el buen ambiente familiar, social y escolar.</li>
+              </ul>
+            </p>
+         </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="p4"><h1>Concejo de Padres
+              </h1>
+              <p>  Permite la participación activa de los padres, madres y/o cuidadores con la 
+                institución, con el propósito de mejorar y asegurar su contribución en los 
+                procesos educativos, lo cual permite aumentar el mejoramiento en los 
+                procesos y la calidad en el servicio.
+                 <br><br>
+  
+                 Este concejo podrá apoyar en:
+                <ul>
+                  <li>Actividades artísticas, científicas, deportivas, comunitarias y 
+                    tecnológicas que organice el Jardín, con la finalidad de exaltar y 
+                    mejorar las competencias de los estudiantes en las distintas áreas.</li>
+                  <li> Participar en la elaboración de planes de mejoramiento institucional
+                    .</li>
+                  <li>Promover actividades de formación de padres
+                    .</li>
+                  <li> Propiciar un buen clima institucional que permita el pleno desarrollo 
+                    de las actividades.</li>
+                  <li> Presentar propuestas para el mejoramiento del manual de 
+                    convivencia en el marco de la Constitución y la Ley.</li>
+                  <li> Presentar propuestas para el mejoramiento del PEI en el marco de la 
+                    Constitución y la Ley</li>
+                </ul>
+              </p></div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br><br><br><div class="container px-4 text-center" style="background-color:  rgb(184, 65, 130); border-radius: 20px;">
+        <div class="row gx-5" style="align-items: center;">
+          <div class="col">
+           <div class="p-3">
+
+            <div class="p4">
+              <h2>Servicio social
+              </h2>
+              <p> Promueve en los niños y niñas su labor comunitaria y sociedad en general. 
+                Permite sensibilizarlos frente a las diferentes necesidades, intereses y 
+                problemas que se viven a diario. <br><br>
+                A través de ello, podrán participar de las diferentes actividades que 
+                permitan:
+                
+            
+                <ul>
+                  <li>El fortalecimiento de los valores sociales.</li>
+                  <li>  Creación de espacios lúdicos y recreativos.</li>
+                  <li> Creación de espacios de proyección comunitaria que les permita un 
+                    contacto directo con la realidad social.</li>
+                  <li>  Generar sensibilización hacia las diferentes problemáticas y 
+                    necesidades de los demás miembros de la comunidad.</li>
+                  <li> Promover la empatía.</li>
+                  <li> Promover acciones que estén orientadas a fortalecer el espíritu de 
+                    servicio en bien la comunidad.</li>
+                </ul>
+              </p>
+              <p>Es importante resaltar que, no solo los niños y niñas tienen participación 
+                durante esta labor social, también están involucrados padres, madres, 
+                cuidadores, director(a), coordinador(a) y docentes
+              </p>
+            </div> 
+           </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="p4"><h2>Eventos culturales y recreativos</h2><br>
+                <p">A través de estos espacios se impulsan las expresiones artísticas, culturales y 
+                  lúdicas en los niños y niñas del Jardín Infantil Kinder Garden Smile, con el 
+                  propósito de construir la cultura, convivencia y la formación en valores.<br>
+                  Todo esto alineado con la 
+                  Con creación de estos eventos es posible:
+                  <br>
+                  <ul>
+                    <li>Adecuar, mejorar y construir espacios propicios que permitan la 
+                      integración de los niños, niñas y comunidad en general.</li>
+                    <li>Fomentar la cultura y valores sociales e institucionales.</li>
+                    <li>Propiciar escenarios para el dialogo y la comunicación.</li>
+                    <li>Formar grupos artísticos y deportivos que representen el Jardín.</li>
+                    <li>Realizar cooperaciones con otras instituciones y empresas.</li>
+                    <li>Afianzar en los estudiantes las relaciones humanas, fomentando la amistad, solidaridad y compañerismo.</li>
+                    <li>Reconocer y valorar la personalidad y el espacio de los demás.</li>
+                    <li>Fomentar el respeto.</li>
+                    <li>Fomentar la inclusión.</li>
+                    <li>Fomentar hábitos de sano esparcimiento.</li>
+                    <li>Mejorar las capacidades físicas, mentales y sociales.</li>
+                    <li>Desarrollar el sentido de solidaridad, colaboración y trabajo en equipo.</li>
+                  </ul>
+                </p>  <h5>Algunas de las actividades a realizar son:</h5>
+
+
+                <ul >
+                  <li>Juegos de mesa.</li>
+                  <li>Festivales deportivos.</li>
+                  <li>Juegos de roles.</li>
+                  <li>Turismo deportivo.</li>
+                  <li>Recreación turística.</li>
+                  <li>Festival de animación.</li>
+                  <li>Ludotecas.</li>
+                  <li>Competencias grupales e individuales.</li>
+                  <li>Juegos tradicionales.</li>
+                  <li>Danza.</li>
+                  <li>Música.</li>
+                  <li>Pintura.</li>
+                </ul></div>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="container">
+    <h1>Calendario de Actividades</h1>
+    <div class="calendar">
+      <div class="day day-header">Lunes</div>
+      <div class="day day-header">Martes</div>
+      <div class="day day-header">Miércoles</div>
+      <div class="day day-header">Jueves</div>
+      <div class="day day-header">Viernes</div>
+      <div class="day day-header">Sábado</div>
+      <div class="day day-header">Domingo</div>
+
+      <div class="day"><strong>1</strong><div class="event">Día de Juegos</div></div>
+      <div class="day"><strong>2</strong><div class="event">Taller de Arte</div></div>
+      <div class="day"><strong>3</strong><div class="event">Música en Vivo</div></div>
+      <div class="day"><strong>4</strong><div class="event">Excursión al Parque</div></div>
+      <div class="day"><strong>5</strong><div class="event">Cuentacuentos</div></div>
+      <div class="day"></div>
+      <div class="day"></div>
+
+      <div class="day"><strong>8</strong><div class="event">Día de Deportes</div></div>
+      <div class="day"><strong>9</strong><div class="event">Taller de Cocina</div></div>
+      <div class="day"><strong>10</strong><div class="event">Visita a la Granja</div></div>
+      <div class="day"><strong>11</strong><div class="event">Cine Infantil</div></div>
+      <div class="day"><strong>12</strong><div class="event">Feria de Ciencias</div></div>
+      <div class="day"></div>
+      <div class="day"></div>
+    </div>
+  </div>
+    <!------ pie de pagina  ------>
+<footer>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="img/Bandera_Kinder.png" alt="cargando...">
+      </div>
+      <div class="col-md-4 offset-md-4">
+        <img src="img/Carita_Feliz.png" alt="cargando....">
+      </div>
+    </div>
+  <h1>Jardín Infantil Kinder Garden Smile </h1>
+  <br>
+  <h1>correo electronico:  <i class="fa-brands fa-instagram"></i> Kindergardensmile35@gmail.com</h1>
+  <br>
+  <h1>Número de celuar:  <i class="fa-brands fa-square-whatsapp"></i>  300 274 3722</h1>
+  <br>
+</footer>
+</body>
+</html>
